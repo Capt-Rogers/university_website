@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+<link rel="stylesheet" href="style.css"></head>
+<body>
+    <div class="cursor"></div>
+    <!-- -------header--------- -->
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Assets/logo.png" alt="Logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+               </div>
+               <div class="icon"><img id="icon" src="Assets/moon.png" ></div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+            <h1>About Us</h1>
+        </section>
+        <!-- ---about us content-- -->
+        <div id="main">
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>we are the India's largest university</h1>
+                    <p>At Politecnico Di Milano, we are more than an institution; we are a community dedicated to fostering academic excellence, personal growth, and a collaborative spirit. Our commitment extends beyond classrooms, as we strive to provide a vibrant and inclusive environment where students embark on transformative journeys, fueled by world-class education, innovative thinking, and a rich tapestry of experiences. Join us in shaping futures, building lifelong connections, and making a positive impact on the world. </p>
+                    <a href="contact.html" class="hero-btn red-btn">Explore Now</a>
+                </div>
+                <div class="about-col">
+                    <img src="Assets/about.avif" alt="">
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- ---Footer--- -->
+<section class="footer">
+    <h4>About us</h4>
+    <p>At politecnico di milano, we're a dynamic community fostering academic excellence and personal growth. <br> Join us for an enriching journey of education and lifelong connections.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by Deepak Chhetry </p>
+
+</section>
+</div>
+<script src="script.js"></script>
+
+
+</body>
+</html>
